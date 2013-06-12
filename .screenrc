@@ -1,0 +1,13 @@
+shell $SHELL
+term xterm-color
+hardstatus string "[%Y/%m/%d(%D)%c][%H][%w]"
+hardstatus alwayslastline
+hardstatus  on
+autodetach  on
+startup_message off
+escape    ^Tt
+defscrollback 10000
+nethack   off
+crlf    off
+vbell   off
+setenv LANG C
